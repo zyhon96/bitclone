@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Trusted from './components/Trusted';
+import Trustlogo from './components/Trustlogo';
+import Trade from './components/Trade';
+import Whitepaper from './components/Whitepaper';
+import Testimonial from './components/Testimonial';
+import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <div className="container">
+          <Navbar />
+          <Header />
+          <Trusted />
+          <Trustlogo />
+          <Trade />
+        </div>
+        <Whitepaper />
+      </div>
+      <div className="container">
+        <Testimonial />
+        <Newsletter />
+      </div>
+      <Footer />
+    </Router>
   );
 }
+
 
 export default App;

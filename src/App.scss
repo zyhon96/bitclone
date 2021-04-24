@@ -1,0 +1,753 @@
+.container {
+  width: 90%;
+  margin: 20px auto 0;
+}
+
+// COLOURS
+
+$blue: #0055fe;
+$orange: #f2994a;
+$black: #000000;
+$white: #ffffff;
+$green: #2d4d40;
+$grey: #4d4d4d;
+
+// FONTS
+@font-face {
+  font-family: "Euculid Circula B";
+  src: url(./fonts/EuclidCircularA-Bold.ttf);
+}
+@font-face {
+  font-family: "Euculid Circula L";
+  src: url(./fonts/EuclidCircularA-Light.ttf);
+}
+@font-face {
+  font-family: "Euculid Circula M";
+  src: url(./fonts/EuclidCircularA-Medium.ttf);
+}
+@font-face {
+  font-family: "Euculid Circula R";
+  src: url(./fonts/EuclidCircularA-Regular.ttf);
+}
+@font-face {
+  font-family: "Euculid Circula SB";
+  src: url(./fonts/EuclidCircularA-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Euculid Circula LI";
+  src: url(./fonts/EuclidCircularA-LightItalic.ttf);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .nav-heading {
+    .nav-heading-display {
+      display: flex;
+      font-family: "Euculid Circula L";
+
+      justify-content: space-between;
+      h5 {
+        padding: 0 10px;
+        color: $blue;
+        font-family: "Euculid Circula L";
+      }
+    }
+  }
+  .navsvg {
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .navsign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .butt1 {
+      button {
+        padding: 0 40px;
+        background-color: $white;
+        border: none;
+
+        h5 {
+          color: $blue;
+          font-family: "Euculid Circula L";
+        }
+      }
+    }
+    .butt2 {
+      button {
+        background-color: $blue;
+        border: none;
+        h5 {
+          color: $white;
+          padding: 0 40px;
+          font-family: "Euculid Circula L";
+        }
+      }
+    }
+  }
+}
+
+.header {
+  display: flex;
+  padding: 0 30px;
+  padding-bottom: 2rem;
+  .header-left {
+    width: 50%;
+    padding-left: 20px;
+    h1 {
+      font-size: 3.8rem;
+      font-family: "Euculid Circula B";
+      color: $blue;
+      line-height: 4.5rem;
+      display: unset;
+    }
+    h3 {
+      width: 100%;
+      color: $grey;
+      font-family: "Euculid Circula L";
+      line-height: 2.2rem;
+      font-size: 1.5rem;
+    }
+  }
+  .header-right {
+    width: 50%;
+    img {
+      width: 95%;
+      height: 500px;
+    }
+  }
+
+  .getcoins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 43%;
+    .box1 {
+      button {
+        color: $white;
+        padding: 0 20px;
+        background-color: $orange;
+        border: none;
+      }
+    }
+
+    .box2 {
+      margin-right: 17px;
+      button {
+        color: $blue;
+        background-color: $white;
+        padding: 0 20px;
+        border: none;
+        border: 2px solid blue;
+      }
+    }
+  }
+  .header-right {
+    width: 50%;
+  }
+}
+.trusted {
+  padding: 0 50px;
+  padding-bottom: 3rem;
+  h1 {
+    color: $blue;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+}
+.trustlogo {
+  padding: 0 70px;
+  .logo-one {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  .logo-two {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  .logo-three {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  .logo-four {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+  }
+}
+
+.getcoins2 {
+  display: flex;
+  justify-content: center;
+  .box1 {
+    button {
+      padding: 0 20px;
+      background-color: $orange;
+      margin-right: 1rem;
+      border: none;
+      h4 {
+        color: $white;
+      }
+    }
+  }
+
+  .box2 {
+    button {
+      background-color: $white;
+      padding: 0 20px;
+      border: 2px solid blue;
+
+      h4 {
+        color: $blue;
+      }
+    }
+  }
+}
+
+.questions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4rem;
+
+  h3 {
+    color: $blue;
+  }
+}
+
+.trade {
+  padding: 0 0 20px 50px;
+  .trade-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .top-left {
+      width: 55%;
+      font-family: "Euculid Circula L";
+
+      h1 {
+        color: $blue;
+        font-size: 4rem;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      h2 {
+        color: $black;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 2rem;
+      }
+      p {
+        justify-content: left;
+      }
+    }
+    .top-right {
+      width: 45%;
+    }
+  }
+
+  .trade-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    align-items: center;
+    .bottom-left {
+      width: 50%;
+    }
+    .bottom-right {
+      width: 50%;
+      .bottom-right-text {
+        font-family: "Euculid Circula L";
+
+        h1 {
+          color: $blue;
+          font-size: 3rem;
+          margin-bottom: 0;
+        }
+        h2 {
+          font-size: 2rem;
+          color: $black;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        p {
+          color: $black;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+.whitepaper {
+  background-color: $blue;
+  align-items: center;
+  justify-content: center;
+  .conntennt {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    h1 {
+      color: $white;
+      font-family: "Euculid Circula L";
+    }
+    p {
+      color: $white;
+      font-family: "Euculid Circula L";
+      padding-bottom: 20px;
+    }
+  }
+  .download {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    button {
+      background-color: $orange;
+      outline-style: none;
+      padding: 7px 40px;
+      border: none;
+      h3 {
+        font-family: "Euculid Circula L";
+        color: white;
+      }
+    }
+  }
+
+  .founder {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    .founder-img {
+      margin-right: 20px;
+    }
+    .founder-text {
+      text-align: left;
+      p {
+        color: $white;
+      }
+    }
+  }
+}
+
+.testimonial {
+  padding: 0 0 50px 50px;
+  display: flex;
+  .testimonial-left {
+    width: 50%;
+    h1 {
+      color: $blue;
+      font-family: "Euculid Circula L";
+      font-size: 40px;
+    }
+    .lefty {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .lefto {
+        margin-top: 0;
+        width: 10%;
+        h3 {
+          color: $blue;
+          font-size: 6rem;
+          font-family: "Euculid Circula L";
+          margin-top: 0;
+        }
+      }
+      .left {
+        width: 90%;
+        border: 2px solid $blue;
+        border-radius: 5px;
+        margin-top: 60px;
+        margin-right: 20px;
+        .left-content {
+          padding: 15px 40px 5px 40px;
+
+          h3 {
+            font-family: "Euculid Circula LI";
+          }
+          .word {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 87%;
+
+            .lin {
+              padding-bottom: 50px;
+              .line {
+                border-left: 6px solid $black;
+                height: 50px;
+              }
+            }
+
+            .wording {
+              margin-left: 10px;
+
+              p {
+                font-family: "Euculid Circula L";
+                padding-bottom: 50px;
+              }
+            }
+          }
+
+          .last {
+            display: flex;
+            justify-content: space-between;
+            .last-title {
+              h3 {
+                font-family: "Euculid Circula L";
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .testimonial-right {
+    width: 50%;
+    .righty {
+      display: flex;
+
+      .green {
+        background-color: $green;
+        width: 90%;
+        border: 2px solid $green;
+        border-radius: 5px;
+        margin-top: 320px;
+        margin-left: 20px;
+        padding: 15px 35px 5px 40px;
+        h3 {
+          color: $white;
+          font-family: "Euculid Circula LI";
+        }
+
+        .greener {
+          display: flex;
+          justify-items: center;
+          align-items: center;
+
+          .lin1 {
+            .liner {
+              border-left: 6px solid $white;
+              height: 80px;
+            }
+          }
+          .wordings {
+            margin-left: 10px;
+            p {
+              color: $white;
+              font-family: "Euculid Circula L";
+            }
+          }
+        }
+
+        .bottoom {
+          display: flex;
+          justify-content: space-between;
+          padding-top: 2rem;
+          .text-bottom {
+            flex-direction: column-reverse;
+            h3 {
+              font-family: "Euculid Circula L";
+            }
+          }
+        }
+      }
+      .dot {
+        width: 10%;
+        margin-bottom: 0;
+        h3 {
+          color: $blue;
+          font-family: "Euculid Circula L";
+          font-size: 4rem;
+          transform: scale(-1, 1);
+          margin-top: 290px;
+        }
+      }
+    }
+  }
+}
+
+.newsletter {
+  padding-bottom: 4rem;
+  .texttt {
+    h1 {
+      color: $blue;
+      font-family: "Euculid Circula B";
+      font-size: 3rem;
+      text-align: center;
+    }
+  }
+  .input {
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    form {
+      padding-bottom: 4rem;
+      .text-submit {
+        padding: 15px 140px;
+      }
+      .submit {
+        background-color: $orange;
+        padding: 16px 40px;
+        font-family: "Euculid Circula B";
+        color: $white;
+        border: none;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: $blue;
+  width: 100%;
+  display: flex;
+  .footer-left {
+    display: flex;
+    width: 50%;
+    font-family: "Euculid Circula B";
+    justify-content: space-between;
+    .left-logo {
+      padding-top: 80px;
+      padding-left: 40px;
+      h2 {
+        color: $white;
+      }
+    }
+  }
+  .footer-right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    .right-1 {
+      width: 50%;
+      display: flex;
+      font-family: "Euculid Circula M";
+      color: $white;
+      text-decoration: none;
+      justify-content: space-between;
+      padding-top: 80px;
+      ul {
+        list-style-type: none;
+        li {
+          padding: 10px 0;
+        }
+      }
+    }
+    .right-2 {
+      width: 50%;
+      padding-top: 120px;
+      padding-left: 80px;
+      h3 {
+        color: $white;
+      }
+      .social {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    margin: auto;
+    .navsign {
+      .butt1 {
+        display: none;
+      }
+      .butt2 {
+        h5 {
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+
+  .header {
+    .header-left {
+      width: 100%;
+    }
+
+    .header-right {
+      display: none;
+    }
+    .getcoins {
+      width: 55%;
+    }
+  }
+
+  .trade {
+    .trade-top {
+      display: unset;
+      .top-left {
+        width: 100%;
+      }
+      .top-right {
+        .setbit-img {
+          img {
+            height: 517px;
+            width: 340px;
+          }
+        }
+      }
+    }
+    .trade-bottom {
+      display: unset;
+      .bottom-right {
+        .setbit2 {
+          img {
+            height: 500px;
+            width: 400px;
+          }
+        }
+      }
+      .bottom-right {
+        width: 100%;
+      }
+    }
+  }
+
+  .testimonial {
+    display: unset;
+    .testimonial-left {
+      width: 100%;
+      h1 {
+        text-align: left;
+      }
+    
+    }
+    .testimonial-right {
+      width: 100%;
+      .righty {
+        .green {
+          margin: 20px;
+        }
+        .dot {
+          h3 {
+            margin-top: 420px;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .newsletter {
+    .input {
+      width: auto;
+
+      form {
+        margin: auto;
+        .text-submit {
+          padding: 15px 40px;
+          margin-left: 60px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    width: 100%;
+    .footer-left {
+      width: 30%;
+      .left-logo {
+        h2 { 
+          display: none;
+        }
+      }
+    }
+
+    .footer-right {
+      width: 70%;
+      .right-2 {
+        width: 60%;
+        .social {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    .getcoins {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+    }
+  }
+
+  .trade {
+    .trade-top {
+      .top-left {
+        width: 100%;
+      }
+      .top-right {
+        .setbit-img {
+          img {
+            height: 517px;
+            width: 320px;
+          }
+        }
+      }
+    }
+    .trade-bottom {
+      .bottom-right {
+        .bottom-right-text {
+          margin-left: 28px;
+        }
+      }
+    }
+  }
+
+  .testimonial {
+    display: unset;
+    .testimonial-left {
+      width: 100%;
+      h1 {
+        text-align: left;
+      }
+      .lefty {
+        .left {
+          .left-content {
+            .word {
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+    .testimonial-right {
+      width: 100%;
+      .righty {
+        .green {
+          margin: 20px;
+        }
+        .dot {
+          h3 {
+            margin-top: 420px;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
