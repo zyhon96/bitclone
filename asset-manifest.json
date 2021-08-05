@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bitclone/static/css/main.8021476d.chunk.css",
+    "main.css": "/bitclone/static/css/main.ffb1daf4.chunk.css",
     "main.js": "/bitclone/static/js/main.0dfeee51.chunk.js",
     "main.js.map": "/bitclone/static/js/main.0dfeee51.chunk.js.map",
     "runtime-main.js": "/bitclone/static/js/runtime-main.bac95566.js",
@@ -10,7 +10,7 @@
     "static/js/3.64dc5e6b.chunk.js": "/bitclone/static/js/3.64dc5e6b.chunk.js",
     "static/js/3.64dc5e6b.chunk.js.map": "/bitclone/static/js/3.64dc5e6b.chunk.js.map",
     "index.html": "/bitclone/index.html",
-    "static/css/main.8021476d.chunk.css.map": "/bitclone/static/css/main.8021476d.chunk.css.map",
+    "static/css/main.ffb1daf4.chunk.css.map": "/bitclone/static/css/main.ffb1daf4.chunk.css.map",
     "static/js/2.94aa6a39.chunk.js.LICENSE.txt": "/bitclone/static/js/2.94aa6a39.chunk.js.LICENSE.txt",
     "static/media/1b.4f7488c2.svg": "/bitclone/static/media/1b.4f7488c2.svg",
     "static/media/Carojoii.563d8b70.svg": "/bitclone/static/media/Carojoii.563d8b70.svg",
@@ -47,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.bac95566.js",
     "static/js/2.94aa6a39.chunk.js",
-    "static/css/main.8021476d.chunk.css",
+    "static/css/main.ffb1daf4.chunk.css",
     "static/js/main.0dfeee51.chunk.js"
   ]
 }
